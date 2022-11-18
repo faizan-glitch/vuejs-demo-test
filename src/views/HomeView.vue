@@ -9,7 +9,7 @@ function receiveDataFromChild(data: any) {
 
 <template>
 
-  <h1>THIS IS A HOME PAGE</h1>
+  <h1>THIS IS A HOME PAGE Version 2</h1>
 
   <Child name="Child 1" @data="receiveDataFromChild" @no-data="receiveDataFromChild"/>
   
